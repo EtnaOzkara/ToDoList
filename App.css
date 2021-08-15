@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1{
+  text-align: center;
+}
+
+button:hover {
+  background: #444;
+}
+
+button {
+  display: block;
+  width: 100px;
+  padding: 10px 10px;
+  border: 0;
+  background:gray;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 5px ;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  overflow: auto;
+  padding: 3rem 2rem;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 5px;
+  background: #f4f4f4;
+  margin: 5px 0;
+}
+
+.add-item{
+  display:  flex; 
+  height: 100%;   
+}
+
+input {
+  width: 100%;
+  padding-left: 10px;
+}
+
+
+.flex.date {
+  width: 250px;
+  margin: 0 5px;
+}
+
+.titles{
+  display: flex; 
+  justify-content: space-between;
+  margin: 5px 10px;
+}  
+
+.flextask {
+  display: flex; 
+  
+}
+
+.fa-circle {
+  margin-right: 50px;
+}
+.fa-check-circle{
+  margin-right: 50px;
+}
+
+.task{
+  width: 100%;
+  max-width: 350px;
+  
+}
+
+.date{
+  margin-left: 15px;
+}
+
+.fa-refresh{
+  margin-bottom: 10px;
+}
+
+.doneTask{
+  color: gray;
+  text-decoration: line-through;
+}
+
+.flexButtons{
+  width: 100%;
+  display: flex;
+}
+
+.buttons {
+  padding: 10px 10px;
+  width: 100%;
+  border: 0;
+  background:gray;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 5px ;
+}
+
+.selectDate{
+  width: 750px;
+}
